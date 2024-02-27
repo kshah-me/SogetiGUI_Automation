@@ -1,0 +1,5 @@
+Cookies_acceptance ="//button[@class='acceptCookie']"
+Service_link_under_menu_items="//nav[@id='main-menu']/ul/li[@data-levelname='level2']/div[1]/span"
+Automation_sublink_under_Service_link = "//div[@data-levelname='level2']/ul/li/a[@href='https://www.sogeti.com/services/automation/']"
+Worldwide_link_Page_header="//div[@aria-controls='country-list-id']"
+List_of_countries_under_Worldwide_link="//div[@class='country-list']/ul/li/a"
