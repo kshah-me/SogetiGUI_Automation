@@ -40,14 +40,19 @@ This is automated Sogeti web application scenarios. Its using page object model 
 ### Note: Pip is automatically install with Python
 
 
-### Robot Framework
+### Robot Framework Libraries
 1. Install _[Robot Framework](https://robotframework.org/)_ using _pip_ in _Terminal_ using the following command
   ```sh
    pip install robotframework
   ```
-
+### DataDriver
+2. Install _[DataDriver]_ using _pip_ in _Terminal_ using the following command
+  ```sh
+   pip install robotframework-datadriver
+  ```
+  
 ### Selenium Library
-1. Install _[Selenium Library in Robot Framework](https://github.com/robotframework/SeleniumLibrary)_ using _pip_ in _Terminal_ using the following command
+3. Install _[Selenium Library in Robot Framework](https://github.com/robotframework/SeleniumLibrary)_ using _pip_ in _Terminal_ using the following command
   ```sh
   pip install robotframework-seleniumlibrary
   ```

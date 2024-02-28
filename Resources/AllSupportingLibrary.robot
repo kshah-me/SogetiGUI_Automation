@@ -2,8 +2,6 @@
 Library  SeleniumLibrary
 Library    Collections
 Library    String
-Library    RequestsLibrary
-Library   JSONLibrary
 Library   DateTime
 Library   OperatingSystem
 Variables	../Configuration/config.py
