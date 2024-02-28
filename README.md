@@ -39,7 +39,21 @@ This is automated Sogeti web application scenarios. Its using page object model 
 
 ### Note: Pip is automatically install with Python
 
+### Editor set up
 
+1. Download the _[Pycharm](https://www.jetbrains.com/pycharm/download/?section=windows)_ (commudity version)
+2. Import this project
+3. Navigate to file->Setting->Plugins->type Intellibot#Patched plugin and install
+4. Navigate to file->Setting->click on project name->select python.exe as interpreter
+4. Navigate to file->Setting->click on project name->click on + icon
+![img.png](img.png)
+
+5. Type robotframework and click on install button
+6. Type robotframework-datadriver and click on install button 
+7. Type robotframework-seleniumlibrary  and click on install button
+
+
+To run from cmd install the same libraries 
 ### Robot Framework Libraries
 1. Install _[Robot Framework](https://robotframework.org/)_ using _pip_ in _Terminal_ using the following command
   ```sh
@@ -59,11 +73,13 @@ This is automated Sogeti web application scenarios. Its using page object model 
 
 
 ## It's time for Execution...
-1. From your _Terminal_, go to the project directory
+1. From your _ Pycharm Terminal_, OR cmd go to the project directory
 2. Run the test cases using the following command
   ```sh
   a. Run all test cases from .robot file
    robot test.robot(file location)
+   e.g robot  .\Test cases\DataDrivenApproch.robot
+
   ```
 ```sh
   b. Run TAG base test cases from .robot file and store the logs in result folder
@@ -73,10 +89,8 @@ This is automated Sogeti web application scenarios. Its using page object model 
   c. Run individual test cases from .robot file
    robot -t 'testcasename'   test.robot(file location)
   ```
-```sh
-  a. Run all test cases from Test case folder
-   robot foldername
-  ```
+
+
 4. Wait until tests executing has finished
 5. See the output of tests result in the result folder then open `log.html` or `report.html` using your browser
 6. See the log of tests result
